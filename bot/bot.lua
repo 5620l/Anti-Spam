@@ -1,8 +1,8 @@
 #start Project Anti Spam V3:)
 json = dofile('./libs/JSON.lua');serpent = dofile("./libs/serpent.lua");local lgi = require ('lgi');local notify = lgi.require('Notify');notify.init ("Telegram updates");require('./libs/lua-redis');redis =  dofile("./libs/redis.lua");local minute = 60;local hour = 3600;local day = 86400;local week = 604800;TD_ID = redis:get('BOT-ID')
 CerNerCompany = '`اختصاصی  کمپانی کرنر `'
-SUDO_ID = {363936960}
-Full_Sudo = {363936960}
+SUDO_ID = {189308877}
+Full_Sudo = {189308877}
 function is_sudo(msg)
   local var = false
  for v,user in pairs(SUDO_ID) do
